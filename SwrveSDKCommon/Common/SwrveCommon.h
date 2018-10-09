@@ -89,7 +89,7 @@ enum
 
     // Initial size of the in-memory queue
     // Tweak this to avoid fragmenting memory when the queue is growing.
-    SWRVE_MEMORY_QUEUE_INITIAL_SIZE = 16,
+    SWRVE_MEMORY_QUEUE_INITIAL_SIZE = 1,
 
     // This is the largest number of bytes that the in-memory queue will use
     // If more than this number of bytes are used, the entire queue will be written
